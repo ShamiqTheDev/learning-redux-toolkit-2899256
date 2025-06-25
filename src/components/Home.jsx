@@ -6,12 +6,7 @@ import '../styles/home.scss'
 
 const Home = () => {
 
-  // const addToCart = cartSlice.actions.addToCart
-  // const removeFromCart = cartSlice.actions.removeFromCart
-
   const { addToCart, removeFromCart } = cartSlice.actions;
-
-
   const dispatch = useDispatch();
   
   return (
