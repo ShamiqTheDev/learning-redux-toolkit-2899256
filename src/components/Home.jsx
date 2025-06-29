@@ -1,7 +1,9 @@
+import '../styles/home.scss'
+
+import { useDispatch, useSelector } from 'react-redux'
+
 import productList from '../data/productList.json'
 import cartSlice from '../data/cartSlice'
-import { useDispatch, useSelector } from 'react-redux'
-import '../styles/home.scss'
 
 
 const Home = () => {
