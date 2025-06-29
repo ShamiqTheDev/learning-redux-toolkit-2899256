@@ -6,10 +6,11 @@ import '../styles/home.scss'
 
 const Home = () => {
 
-  const { cartProductIds } = useSelector((state) => state.cart );
-  const { addToCart, removeFromCart } = cartSlice.actions;
   const dispatch = useDispatch();
   
+  const { cartProductIds } = useSelector((state) => state.cart );
+  const { addToCart, removeFromCart } = cartSlice.actions;
+    
   return (
     <div className="container product-catalogue">
       <div className="row">
